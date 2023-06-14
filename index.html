@@ -4,138 +4,138 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=sss1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme" content="soluciones efectivas para negocios" />
     <meta name="keywords" content="Negocios, aplicaciones, programas, software" />
-    <title>goit-markup-hw-02</title>
+    <title>goit-markup-hw-03</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+        integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
     <header>
+        <div class="container-header-container">
         <nav>
             <ul class="menu">
                 <li><a class="link-logo-" href="#WebStudio">WebStudio</a></li>
-                <li><a class="link" href="./index.html">Estudio</a></li>
-                <li><a class="link" href="./portafolio.html">Portafolio</a></li>
-                <li><a class="link" href="#Contactos">Contactos</a></li>
+                <li><a class="link-estudio" href="./index.html">Estudio</a></li>
+                <li><a class="link-portafolio" href="./portafolio.html">Portafolio</a></li>
+                <li><a class="link-contactos" href="#Contactos">Contactos</a></li>
             </ul>
         </nav>
         <ul class="menu-social-networks-">
-            <li><a class="link-social-networks" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link-social-networks" href="tel:+525555296000">+52 55 5529 6000</a></li>
+            <li><a class="link-info-contact-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="link-info-contact-tel" href="tel:+525555296000">+52 55 5529 6000</a></li>
         </ul>
+        </div>
     </header>
 
     <main>
-        <section style="background-color: rgb(47, 48, 58,1)">
+        <section>
+            <div>
+            <div class="container-first-section">
             <h1 id="tittle"> SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
             <button class="color-button" type="button">Solicite nuestros servicios</button>
+            </div>
+            </div>
         </section>
 
         <section>
-            <!--Aunque estructuralmente colocar "table" no haya sido la forma deseada de organizar la página, no se encontraron otras alternativas para que el texto se pudiese colocar de forma horizontal como se aprecia en el resultado final-->
-            <table>
-                <tr>
-                    <td>
+            <div class="container-second-section">
+                <ul class="business-quality">
+                    <li class="quality-one">
                         <h3>Atención a los detalles</h3>
-                        <p>Nos adentramos en todos los detalles y procesos para su negocio,<br>para así desarrollar una
+                        <p class="quality-one-pharagraph">Nos adentramos en todos los detalles y procesos para su negocio,<br>para así desarrollar una
                             solución a su
                             medida</p>
-                    </td>
-                    <td>
+                    </li>
+                    <li class="quality-two">
                         <h3>Puntualidad</h3>
-                        <p>Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de
+                        <p class="quality-two-pharagraph">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de
                             la<br>empresa: respetar su tiempo y
                             respetar los plazos acordados</p>
-                    </td>
-                    <td>
+                    </li>
+                    <li class="quality-three">
                         <h3>Planificación</h3>
-                        <p>Usted podrá observar y participar en cada fase de desarrollo<br>y aplicación de soluciones
+                        <p class="quality-three-pharagraph">Usted podrá observar y participar en cada fase de desarrollo<br>y aplicación de soluciones
                         </p>
-                    </td>
-                    <td>
+                    </li>
+                    <li class="quality-four">
                         <h3>Tecnología moderna</h3>
-                        <p>Usamos herramientas innovadoras para resolver las tareas asignadas.<br>Es hora de simplificar
+                        <p class="quality-four-pharagraph">Usamos herramientas innovadoras para resolver las tareas asignadas.<br>Es hora de simplificar
                             los procesos laborales
                         </p>
-                    </td>
-                </tr>
-            </table>
+                    </li>
+                </ul>
+            </div>
         </section>
 
+        <section>
         <section>
             <h2>A qué nos dedicamos</h2>
-
-            <div style="display: inline-block;">
-                <img src="images/ejemplodetrabajo.jpg" alt="persona trabajando en su computadora" width="373"
-                    height="323">
-            </div>
-            <div style="display: inline-block;">
-                <img src="images/ejemplodetrabajo2.jpg" alt="Persona trabajando en una tablet" width="373" height="323">
-            </div>
-            <div style="display: inline-block;">
-                <img src="images/ejemplodetrabajo3.jpg"
-                    alt="Persona realizando comprobaciones en su celular y computadora" width="373" height="323">
-            </div>
+            <ul class="product-images">
+                <li class="product-images-one">
+                    <img src="images/ejemplodetrabajo.jpg" alt="persona trabajando en su computadora" width="373" height="323">
+                </li>
+                <li class="product-images-two">
+                    <img src="images/ejemplodetrabajo2.jpg" alt="Persona trabajando en una tablet" width="373" height="323">
+                </li>
+                <li class="product-images-three">
+                    <img src="images/ejemplodetrabajo3.jpg" alt="Persona realizando comprobaciones en su celular y computadora"
+                        width="373" height="323">
+                </li>
+            </ul>
         </section>
-
+    
         <section>
-            <h2>Nuestro equipo</h2>
-
-            <div style="display: inline-block;">
-
-                <img src="images/diseñadordelaempresa.jpg " alt="Empleado encargado del diseño" width="250"
-                    height="241">
-
-                <p class="employer-name">Andrés Cubo</p>
-                <p class="employer-position">Diseñador de productos</p>
-
-
-            </div>
-            <div style="display: inline-block;">
-
-                <img src="images/desarrolladoradelaempresa.jpg" alt="Empleado encargado de la creación de los programas"
-                    width="250" height="241">
-
-                <p class="employer-name">Carla palacios</p>
-                <p class="employer-position">Desarrolladora frontend</p>
-
-
-            </div>
-            <div style="display: inline-block;">
-
-                <img src="images/marketingdelaempresa.jpg" alt="Empleado encargado del marketing" width="250"
-                    height="241">
-
-                <p class="employer-name">Mario Dorado</p>
-                <p class="employer-position">Marketing</p>
-
-
-            </div>
-            <div style="display: inline-block;">
-
-                <img src="images/diseñadorUIdelaempresa.jpg" alt="Empleado encargado del diseño e intefaz de usuario"
-                    width="250" height="241">
-
-                <p class="employer-name">Pablo Mijangos</p>
-                <p class="employer-position">Diseñador UI</p>
-
-
-            </div>
+            <ul class="container-third-section">
+                <h2 class="our-team">Nuestro equipo</h2>
+                <li class="designer-image card">
+                    <img src="images/diseñadordelaempresa.jpg" alt="Empleado encargado del diseño" width="250" height="241">
+                    <div class="card-content">
+                        <p class="employer-name"><b>Andrés Cubo</b></p>
+                        <p class="employer-position">Diseñador de productos</p>
+                    </div>
+                </li>
+                <li class="developer-image card">
+                    <img src="images/desarrolladoradelaempresa.jpg" alt="Empleado encargado de la creación de los programas"
+                        width="250" height="241">
+                    <div class="card-content">
+                        <p class="employer-name"><b>Carla Palacios</b></p>
+                        <p class="employer-position">Desarrolladora frontend</p>
+                    </div>
+                </li>
+                <li class="marketing-image card">
+                    <img src="images/marketingdelaempresa.jpg" alt="Empleado encargado del marketing" width="250" height="241">
+                    <div class="card-content">
+                        <p class="employer-name"><b>Mario Dorado</b></p>
+                        <p class="employer-position">Marketing</p>
+                    </div>
+                </li>
+                <li class="ui-designer-image card">
+                    <img src="images/diseñadorUIdelaempresa.jpg" alt="Empleado encargado del diseño e intefaz de usuario"
+                        width="250" height="241">
+                    <div class="card-content">
+                        <p class="employer-name"><b>Pablo Mijangos</b></p>
+                        <p class="employer-position">Diseñador UI</p>
+                    </div>
+                </li>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <a class="link-logo-" href="#WebStudio">WebStudio</a>
+        <a class="link-logo-footer" href="#WebStudio">WebStudio</a>
         <address>
-            <p class="info-location">Calz. Ticomán 500,<br>Ciudad de méxico, CDMX, México</p>
+            <p class="info-location">Calz. Ticomán 500, Ciudad de<br>México, CDMX, México</p>
             <a class="link-footer" href="mailto:info@example.com">info@example.com</a><br>
             <a class="link-footer" href="tel:+525555296000">+52 55 5529 6000</a>
         </address>

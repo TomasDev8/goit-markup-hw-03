@@ -12,33 +12,38 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+        integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul class="menu">
-                <li><a class="link-logo-" href="#WebStudio">WebStudio</a> </li>
-                <li><a class="link" href="./index.html">Estudio</a></li>
-                <li><a class="link" href="./portafolio.html">Portafolio</a></li>
-                <li><a class="link" href="#Contactos">Contactos</a></li>
+        <div class="container-header-container line">
+            <nav>
+                <ul class="menu">
+                    <li><a class="link-logo-" href="#WebStudio">WebStudio</a></li>
+                    <li><a class="link-estudio" href="./index.html">Estudio</a></li>
+                    <li><a class="link-portafolio" href="./portafolio.html">Portafolio</a></li>
+                    <li><a class="link-contactos" href="#Contactos">Contactos</a></li>
+                </ul>
+            </nav>
+            <ul class="menu-social-networks-">
+                <li><a class="link-info-contact-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="link-info-contact-tel" href="tel:+525555296000">+52 55 5529 6000</a></li>
             </ul>
-        </nav>
-        <ul class="menu-social-networks-">
-            <li><a class="link-social-networks" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link-social-networks" href="tel:+525555296000">+52 55 5529 6000</a></li>
-        </ul>
+        </div>
     </header>
 
     <main>
         <section>
-            <div class="container">
+            <div class="container-options">
                 <ul class="menu-portafolio">
-                    <li>Todos</li>
-                    <li>Sitios web</li>
-                    <li>Aplicaciones</li>
-                    <li>Diseño</li>
-                    <li>Marketing</li>
+                    <li> <button class="menu-portafolio button-section" type="button">Todos</button></li>
+                    <li> <button class="menu-portafolio button-section" type="button">Sitios web</button></li>
+                    <li> <button class="menu-portafolio button-section" type="button">Aplicaciones</button></li>
+                    <li> <button class="menu-portafolio button-section" type="button">Diseño</button></li>
+                    <li> <button class="menu-portafolio button-section" type="button">Marketing</button></li>
                 </ul>
             </div>
         </section>
