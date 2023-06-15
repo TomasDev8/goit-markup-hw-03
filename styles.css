@@ -12,80 +12,80 @@
 }
 
 .link-estudio {
-color: #212121;
-width: 49px;
-height: 16px;
-top: 32px;
-left: 453px;
-font-weight: 500;
-font-size: 14px;
-line-height: 16.41px;
-margin-right: 50px;
-padding: 0px;
+    color: #212121;
+    width: 49px;
+    height: 16px;
+    top: 32px;
+    left: 453px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-right: 50px;
+    padding: 0px;
 }
 
 .link-portafolio {
-color: #212121;
-height: 16px;
-width: 65px;
-left: 552px;
-top: 32px;
-font-weight: 500;
-font-size: 14px; 
-line-height: 16.41px;
-padding: 0px;
-margin-right: 50px;
+    color: #212121;
+    height: 16px;
+    width: 65px;
+    left: 552px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    padding: 0px;
+    margin-right: 50px;
 }
 
 .link-contactos {
-color: #212121;
-height: 16px;
-width: 67px;
-left: 667px;
-top: 32px;
-font-weight: 500;
-font-size: 14px; 
-line-height: 16.41px;
-padding: 0px;
+    color: #212121;
+    height: 16px;
+    width: 67px;
+    left: 667px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+    padding: 0px;
 
 }
 
 .link-info-contact {
-color: rgba(117, 117, 117, 1);
-text-decoration: none;
-font-weight: 500;
-font-size: 14px;
-margin-right: 50px;
-line-height: 16.41px;
+    color: rgba(117, 117, 117, 1);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 50px;
+    line-height: 16.41px;
 }
 
 .link-info-contact-email {
-Width: 135px;
-Height: 16px; 
-Top: 32px;
-Left: 1078px;
-font-weight: 500; 
-font-size: 14px; 
-Line-height: 16.41px;
-padding: 0px;
-margin-right: 50px;
-text-decoration: none;
-color: #757575;
+    Width: 135px;
+    Height: 16px;
+    Top: 32px;
+    Left: 1078px;
+    font-weight: 500;
+    font-size: 14px;
+    Line-height: 16.41px;
+    padding: 0px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #757575;
 
 }
 
 .link-info-contact-tel {
-Width: 118px;
-Height: 16px;
-Top: 32px;
-Left: 1263px;
-font-weight: 500;
-font-size: 14px;
-Line-height: 16.41px;
-padding: 0px;
-margin-right: 162px;
-text-decoration: none;
-color: #757575;
+    Width: 118px;
+    Height: 16px;
+    Top: 32px;
+    Left: 1263px;
+    font-weight: 500;
+    font-size: 14px;
+    Line-height: 16.41px;
+    padding: 0px;
+    margin-right: 162px;
+    text-decoration: none;
+    color: #757575;
 }
 
 .link-estudio:hover,
@@ -110,7 +110,7 @@ color: #757575;
     line-height: 24px;
     position: relative;
     top: -32px;
-    
+
 }
 
 p {
@@ -128,7 +128,7 @@ h2 {
     margin-left: 240.43px;
     margin-bottom: 55px;
     color: #212121;
-    
+
 }
 
 .our-team {
@@ -161,26 +161,26 @@ h3 {
 }
 
 .product-images {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .product-images-one {
-display: inline-block;
-width: 360px;
-margin-right: 30.26px;
-margin-left: 235px;
+    display: inline-block;
+    width: 360px;
+    margin-right: 30.26px;
+    margin-left: 235px;
 }
 
 .product-images-two {
-display: inline-block;
-width: 360px;
-margin-right: 30.26px;
+    display: inline-block;
+    width: 360px;
+    margin-right: 30.26px;
 }
 
 .product-images-three {
-display: inline-block;
-width: 360px;
+    display: inline-block;
+    width: 360px;
 }
 
 .employer-name {
@@ -219,7 +219,7 @@ width: 360px;
 }
 
 .color-button:hover {
-    background-color:#2196F3;
+    background-color: #2196F3;
 }
 
 .container {
@@ -268,8 +268,8 @@ width: 360px;
     text-decoration: none;
     display: flex;
     align-items: center;
-    line-height: 14.16px ;
-    }
+    line-height: 14.16px;
+}
 
 .menu-social-networks-:hover {
     color: #2196F3;
@@ -301,10 +301,10 @@ width: 360px;
     height: 30px;
     width: 145px;
     line-height: 24.52px;
-    top:-55px;
+    top: -55px;
     margin-right: 147px;
     margin-left: 147px;
-    
+
 }
 
 .link-logo- {
@@ -319,7 +319,7 @@ width: 360px;
     left: 215px;
     top: 24px;
     line-height: 14.16px;
-    
+
 }
 
 .menu li {
@@ -381,7 +381,7 @@ footer {
     margin-bottom: 2px;
     position: relative;
     top: -32px;
-    
+
 }
 
 .product-name {
@@ -403,7 +403,7 @@ footer {
     left: 215px;
     top: 775px;
     margin-left: 215px;
-    margin-right:215px;
+    margin-right: 215px;
     margin-top: 95px;
     margin-bottom: 94px;
 }
@@ -411,18 +411,18 @@ footer {
 .business-quality {
     display: flex;
     list-style-type: none;
-   
+
 }
 
 .quality-one {
-flex: 1;
-margin-right: 30px;
-margin-left: 20px;
+    flex: 1;
+    margin-right: 30px;
+    margin-left: 20px;
 }
 
 .quality-two {
-flex: 1;
-margin-right: 30px;
+    flex: 1;
+    margin-right: 30px;
 }
 
 .quality-three {
@@ -440,8 +440,8 @@ margin-right: 30px;
 h3 {
     color: #212121;
     width: 270px;
-    Height: 16px; 
-    Top: 775px; 
+    Height: 16px;
+    Top: 775px;
     Left: 215px;
     margin: 0;
     font-weight: 700;
@@ -450,83 +450,83 @@ h3 {
 }
 
 .quality-one-pharagraph {
-height: 75px;
-width: 270px;
-left: 215px;
-top: 801px;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+    height: 75px;
+    width: 270px;
+    left: 215px;
+    top: 801px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .quality-two-pharagraph {
-height: 96px;
-width: 270px;
-left: 515px;
-top: 801px;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+    height: 96px;
+    width: 270px;
+    left: 515px;
+    top: 801px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .quality-three-pharagraph {
-height: 75px;
-width: 270px;
-left: 815px;
-top: 801px;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+    height: 75px;
+    width: 270px;
+    left: 815px;
+    top: 801px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .quality-four-pharagraph {
-height: 75px;
-width: 270px;
-left: 1115px;
-top: 801px;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+    height: 75px;
+    width: 270px;
+    left: 1115px;
+    top: 801px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .container-third-section {
-background-color: #F5F4FA;
-width: 1600px;
-height: 648px;
-display: inline-block;
-margin-top: 94px;
-justify-content: space-between;
-margin: 0;
-padding: 0;
+    background-color: #F5F4FA;
+    width: 1600px;
+    height: 648px;
+    display: inline-block;
+    margin-top: 94px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .designer-image {
-display: inline-block;
-width: 282px;
-margin-top: 15px;
-margin-right: 17px;
-margin-left: 280px;
+    display: inline-block;
+    width: 282px;
+    margin-top: 15px;
+    margin-right: 17px;
+    margin-left: 280px;
 }
 
 .developer-image {
-display: inline-block;
-width: 282px;
-margin-top: 15px;
-margin-right: 17px;
+    display: inline-block;
+    width: 282px;
+    margin-top: 15px;
+    margin-right: 17px;
 }
 
 .marketing-image {
-display: inline-block;
-width: 282px;
-margin-top: 15px;
-margin-right: 17px;
+    display: inline-block;
+    width: 282px;
+    margin-top: 15px;
+    margin-right: 17px;
 }
 
 .ui-designer-image {
-display: inline-block;
-width: 282px;
-margin-top: 15px;
-margin-right: 17px;
+    display: inline-block;
+    width: 282px;
+    margin-top: 15px;
+    margin-right: 17px;
 }
 
 .card {
@@ -627,7 +627,7 @@ margin-right: 17px;
 li button:hover {
     background-color: #2196F3;
     color: white;
-    }
+}
 
 .product-list {
     list-style-type: none;
@@ -694,4 +694,3 @@ li button:hover {
     text-align: left;
     padding: 0px 24px 20px 24px;
 }
-
