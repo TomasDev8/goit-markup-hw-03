@@ -118,10 +118,7 @@ p {
 }
 
 h2 {
-    width: 371.15;
-    height: 46.24;
     top: 991px;
-    left: 619.43;
     font-weight: 700;
     font-size: 36px;
     text-align: center;
@@ -157,7 +154,7 @@ h3 {
     width: 696px;
     left: 448px;
     top: 280px;
-    border-radius: nullpx;
+  
 }
 
 .product-images {
@@ -366,7 +363,6 @@ footer {
     color: white;
     font-size: 14px;
     display: flex;
-    align-items: left;
     padding: 120px;
 }
 
@@ -562,7 +558,6 @@ h3 {
 }
 
 .button-one-section {
-    width: 73px;
     font-size: 16px;
     line-height: 1.6;
     font-weight: 500;
@@ -575,8 +570,6 @@ h3 {
 }
 
 .button-two-section {
-    width: 120x;
-    height: 38px;
     font-size: 16px;
     line-height: 1.6;
     font-weight: 500;
